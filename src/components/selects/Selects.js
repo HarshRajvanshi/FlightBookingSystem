@@ -21,6 +21,7 @@ function Selects() {
                 <SelectsImg bgImg={Paris} text='Paris' />
                 <SelectsImg bgImg={Russia} text='Russia' />
                 <SelectsImg bgImg={KeyWest} text='Key West' />
+                    <br></br>
             </div>
 <br/>
         </div>
