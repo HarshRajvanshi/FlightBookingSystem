@@ -1,7 +1,8 @@
 import React from 'react'
 import './HeroStyles.css'
 
-import Video from '../../assets/maldivesVideo.mp4'
+//import Video from './maldivesVideo.mp4'
+import Video from './abc.mp4'
 function Hero() {
     return (
         <div className='hero'>
@@ -17,18 +18,41 @@ function Hero() {
                         <div className="input-wrap">
                             <label>Destination</label>
                             <select>
-                                <option value="1">Grande Antigua</option>
-                                <option value="1">Grenda</option>
-                                <option value="1">Emerald Bay</option>
-                                <option value="1">Bora Bora</option>
-                                <option value="1">Key West</option>
+                            <option value="1">Argentina</option>  
+                            <option value="1">Australia</option> 
+                            <option value="1">Algeria</option>
+                            <option value="1">Bangladesh</option>
+                            <option value="1">Bhutan</option>
+                            <option value="1">Bolivia</option>
+                            <option value="1">Bora Bora</option>
+                            <option value="1">Cambodia</option>
+                            <option value="1">Egypt</option>
+                            <option value="1">Greece</option>
+                            <option value="1">Hong Kong</option>
+                            <option value="1">Japan</option>
+                            <option value="1">Jordan</option>
+                            <option value="1">Kashmir</option> 
+                            <option value="1">Kenya</option>
+                            <option value="1">Kerela</option>
                                 <option value="1">Maldives</option>
-                                <option value="1">Barbados</option>
+                                <option value="1">Nepal</option>
+                                <option value="1">Paris</option>
+                                <option value="1">Philippines</option>
+                                <option value="1">Qatar</option>
+                                <option value="1">Russia</option>
+                                <option value="1">Switzerland</option>
+                                <option value="1">Turkey</option>
+                                <option value="1">Taiwan</option>
+                                <option value="1">Thailand</option>
+                                <option value="1">Singapore</option>
+                                <option value="1">South Korea</option>
+                                <option value="1">United Arab Emirates</option>
+                                <option value="1">Vietnam</option>
                             </select>
                         </div>
                         <div className="date">
                             <div className="input-wrap">
-                                <label>date</label>
+                                <label>Date</label>
                                 <input type="date" />
                             </div>
                         </div>
@@ -47,7 +71,7 @@ function Hero() {
                             </label>
                         </div>
 
-                        <button className="butt"> Process </button>
+                        <button className="butt" > Process </button>
                     </form>
                 </div>
             </div>
