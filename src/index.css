@@ -46,15 +46,3 @@ h2 {
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
 }
-
-
-
-@media screen and (max-width: 940px) {
-  h1 {
-    font-size: 2.5rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-}
