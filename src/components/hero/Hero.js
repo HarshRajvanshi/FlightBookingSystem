@@ -1,6 +1,7 @@
 import React from 'react'
 import './HeroStyles.css'
 import Video from './abc.mp4'
+import {Link} from 'react-router-dom'
 function Hero() {
     return (
         <div className='hero'>
@@ -51,7 +52,7 @@ function Hero() {
                       
 
                        
-                        <button className="butt" >Search Flight</button>
+                        <Link to='/searchflight'><button className="butt" >Search Flight</button></Link>
                     </form>
                 </div>
             </div>
