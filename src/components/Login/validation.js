@@ -14,7 +14,7 @@ const validation = (values) => {
     }
     if(!values.password){
         errors.password="Password is required."
-    }else if(!/^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[*.!@$%^&]).{8,20}$/.test(values.password)){
+    }else if(!/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*]).{8,}$/.test(values.password)){
        errors.password="Password is invalid."
     }
 
