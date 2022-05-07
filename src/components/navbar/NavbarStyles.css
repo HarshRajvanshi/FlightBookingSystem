@@ -11,13 +11,6 @@
     color: #fff;
 }
 
-
-
-
-
-
-
-
 .navbar-bg {
     background-color: #f5f5f5;
 }
@@ -58,22 +51,7 @@ li {
     color: black;
 }
 
-@media screen and (max-width: 940px) {
 
-    .mobile-menu {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        top: -100vh;
-        left: 0;
-        position: absolute;
-        justify-content: space-between;
-        /* align-items: center; */
-        /* color: rgba(255, 255, 255, .95); */
-        background-color: #f5f5f5;
-        transition: 0.3s;
-        color: #000;
-    }
 
     .dark {
         color: #000;
@@ -83,22 +61,9 @@ li {
         top: 80px;
     }
 
-    .mobile-menu li {
-        padding: 1.2rem 1rem;
-        margin: 0 1rem;
-        border-bottom: 1px solid #ccc;
-    }
+   
 
-    .mobile-nav {
-        margin: 1rem 0;
-    }
-
-    .mobile-menu-bottom {
-        width: 100%;
-        text-align: center;
-        padding: 1rem 0;
-    }
-
+   
     .social-icons {
         display: flex;
         justify-content: space-around;
@@ -110,10 +75,7 @@ li {
         transition: 0.3s;
     }
 
-    .mobile-menu button {
-        margin: 1rem;
-        width: 90%;
-    }
+   
 
 
     .nav-menu {
