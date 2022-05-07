@@ -18,7 +18,9 @@ function App() {
                 <Route exact path='/' element={<Home/>}/>    
                 <Route exact path='/AboutUs' element={<AboutUs/>}/> 
                 <Route exact path='/FAQ' element={<Faq/>}/>
-                <Route exact  path='/searchflight'  element={<SearchFlight/>}  /> 
+               <Route exact  path='/searchflight'  element={<SearchFlight/>}  /> 
+                <Route path='/error' element={<ErrorPage/>}/>
+                <Route path='*' element={<ErrorPage/>}/>
                 
           </Routes>
         
