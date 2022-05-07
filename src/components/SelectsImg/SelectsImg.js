@@ -12,4 +12,4 @@ function SelectsImg({bgImg, text}) {
     )
 }
 
-export default SelectsImg
+export default SelectsImg;
