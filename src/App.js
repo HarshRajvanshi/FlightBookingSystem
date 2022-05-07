@@ -1,20 +1,36 @@
-import React from 'react'
-import Footer from './components/footer/Footer';
-import Hero from './components/hero/Hero'
-import Navbar from './components/navbar/Navbar'
-import Search from './components/search/Search';
-import Selects from './components/selects/Selects';
+import logo from './logo.svg';
+import './App.css';
 
+import Home from './Components/Home';
+import AboutUs from './Components/AboutUs'
+import Faq from './Components/Faq'
+import {Route,Routes}  from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
+import SearchFlight from './Components/SearchFlight';
 function App() {
   return (
     <div>
-      <Navbar />
-      <Hero />
-      <Search />
-      <Selects />
-      <Footer />
-    </div>
+       
+     
+     <BrowserRouter>
+     
+          <Routes>
+                <Route exact path='/' element={<Home/>}/>    
+                <Route exact path='/AboutUs' element={<AboutUs/>}/> 
+                <Route exact path='/FAQ' element={<Faq/>}/>
+               <Route exact  path='/searchflight'  element={<SearchFlight/>}  /> 
+                <Route path='/error' element={<ErrorPage/>}/>
+                <Route path='*' element={<ErrorPage/>}/>
+                
+          </Routes>
+        
+          </BrowserRouter>
+        
+      
+     
+      </div>
   );
 }
 
 export default App;
+
