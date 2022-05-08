@@ -6,23 +6,23 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 
-
-
-const page1 = 'Update Flight';
+import './AdminDashboardStyles.css'
+import { Link } from 'react-router-dom'
+/*const page1 = 'Update Flight';
 const page2 = 'Add Flight';
-const page3 = 'All Flight';
+const page3 = 'All Flights';
 
 
 const href1 = '';
 const href2 = '';
-const href3 = '';
+const href3 = '/FlightsList';*/
 
-const ResponsiveAppBar = () => {
+const AdminDashboard = () => {
 
 
 
-    return (
-        <AppBar position="static">
+
+    {/*  <AppBar position="static">
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
 
@@ -76,7 +76,34 @@ const ResponsiveAppBar = () => {
 
                 </Toolbar>
             </Container>
-        </AppBar>
+        </AppBar>*/}
+    return (
+        /* <div name='home' className={nav ? 'navbar navbar-bg' : 'navbar'}>
+             <div className={nav ? 'logo dark' : 'logo'}>
+                 <h2>King Flyer</h2>
+             </div>
+             <ul className="nav-menu">
+                 <Link to='/home'><li>Home</li></Link>
+                 <Link to='/FlightsList'><li>All Flights</li></Link>
+                 <Link to='/FAQ'><li>Add Flights</li></Link>
+ 
+ 
+             </ul>
+ 
+ 
+ 
+ 
+         </div>*/
+        <header>
+            <nav class="navbarDashboard">
+                <ul>
+                    <Link to='/home'><li>Home</li></Link>
+                    <Link to='/FlightsList'><li>All Flights</li></Link>
+                    <Link to='/FAQ'><li>Add Flights</li></Link>
+
+                </ul>
+            </nav>
+        </header>
     );
 };
-export default ResponsiveAppBar;
+export default AdminDashboard;

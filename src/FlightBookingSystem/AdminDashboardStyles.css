@@ -1,0 +1,26 @@
+.navbarDashboard {
+    background-color: olive;
+
+
+}
+
+.navbarDashboard ul {
+    overflow: auto;
+}
+
+.navbarDashboard li {
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+
+}
+
+.navbarDashboard li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbarDashboard li a:hover {
+    color: red
+}
