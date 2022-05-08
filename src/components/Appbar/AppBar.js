@@ -7,15 +7,18 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 
 
-const pages = ['Update Flight', 'Add Flight', 'All Flight'];
+
+const page1 = 'Update Flight';
+const page2 = 'Add Flight';
+const page3 = 'All Flight';
+
+
+const href1 = '';
+const href2 = '';
+const href3 = '';
 
 const ResponsiveAppBar = () => {
-    const [anchorElNav, setAnchorElNav] = React.useState(null);
 
-
-    const handleCloseNavMenu = () => {
-        setAnchorElNav(null);
-    };
 
 
     return (
@@ -43,15 +46,31 @@ const ResponsiveAppBar = () => {
 
 
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-                        {pages.map((page) => (
-                            <Button
-                                key={page}
-                                href='/'
-                                sx={{ my: 2, color: 'white', display: 'block' }}
-                            >
-                                {page}
-                            </Button>
-                        ))}
+
+                        <Button
+                            key={page1}
+                            href={href1}
+                            sx={{ my: 2, color: 'white', display: 'block' }}
+                        >
+                            {page1}
+                        </Button>
+
+                        <Button
+                            key={page2}
+                            href={href2}
+                            sx={{ my: 2, color: 'white', display: 'block' }}
+                        >
+                            {page2}
+                        </Button>
+
+                        <Button
+                            key={page3}
+                            href={href3}
+                            sx={{ my: 2, color: 'white', display: 'block' }}
+                        >
+                            {page3}
+                        </Button>
+
                     </Box>
 
 
