@@ -1,9 +1,12 @@
 .faqs {
 width: 100;
-max-width: 768px;
+max-width: 100%;
 margin: auto;
 padding: 15px;
+background: linear-gradient(135deg, #850c62, #f80759);
 }
+
+
 
 .faqs .faq {
 margin: 15px;
