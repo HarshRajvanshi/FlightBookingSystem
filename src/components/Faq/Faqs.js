@@ -24,9 +24,9 @@ function Faqs() {
     },
 
     {
-      question: "What is Reservation Code used for?",
+      question: "Will I be able to update my registration details at a later date?",
       answer:
-        "Reservation Code is a 6-letter code (e.g. ZEQSQE). It can be used for retrieval of your itinerary in www.virtuallythere.com.sg. It is provided at the last stage of your booking and shown on your itinerary.",
+        "Once you’ve registered with us, you can update your details at any time. For example, if you add a new facility or if you want to tell us more about the area — you can add this information whenever you want to.",
       open: false,
     },
 
@@ -64,10 +64,11 @@ open:false,
 
   return (
     <>
-    <div >
-      <Navbar/>
+    <div>
+      <Navbar />
       
       <div className="faqs">
+        <br></br><br></br><h2><center>FAQs</center></h2>
         {faqs.map((faq, i) => (
           <FAQ faq={faq} index={i} toggleFAQ={toggleFAQ} />
         ))}
